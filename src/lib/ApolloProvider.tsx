@@ -25,7 +25,7 @@ const authLink = setContext((_, { headers }) => {
 
 function makeClient() {
   const httpLink = authLink.concat(new HttpLink({
-    uri: "http://localhost:1337/graphql",
+    uri: "https://productive-comfort-ceaf1158d0.strapiapp.com/graphql",
   }))
 
   return new ApolloClient({

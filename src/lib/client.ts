@@ -6,7 +6,7 @@ export const { getClient } = registerApolloClient(() => {
   return new ApolloClient({
     cache: new InMemoryCache(),
     link: new HttpLink({
-      uri: "http://localhost:1337/graphql",
+      uri: "https://productive-comfort-ceaf1158d0.strapiapp.com/graphql",
     }),
   });
 });
