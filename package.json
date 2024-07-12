@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "install:legacy": "npm install --legacy-peer-deps",
+    "build": "next build "
   },
   "dependencies": {
     "@apollo/client": "^3.11.0-rc.1",
